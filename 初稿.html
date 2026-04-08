@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Project kinoeda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <style>
+    body {
+      padding-top: 50px;
+      background: linear-gradient(to bottom, #0b1a2b, #000000);
+      color: #333;
+    }
+
+    .title-box,
+    .synopsis-box,
+    .half-box {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .title-box {
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .title-box h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .synopsis-box {
+      border-radius: 60px;
+      padding: 80px 60px 20px 60px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    .synopsis-title {
+      background-color: #6fa8dc;
+      color: white;
+      padding: 15px;
+      border-radius: 60px 60px 0 0;
+      font-weight: bold;
+      text-align: center;
+      margin: -80px -60px 20px -60px;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+    .row-box {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .half-box {
+      border-radius: 60px;
+      padding: 80px 60px 20px 60px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      flex: 1;
+    }
+
+    .name {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .profile-row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .profile-left {
+      width: 30%;
+      background-color: #f5f7fa;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .profile-right {
+      width: 70%;
+      padding: 10px;
+    }
+
+    .profile-left p:last-child {
+      font-style: italic;
+      color: #555;
+    }
+
+    .synopsis-box p,
+    .half-box p {
+      margin-bottom: 12px;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    .list-group-item {
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    /* スマホ対応 */
+    @media (max-width: 768px) {
+      body {
+        padding-top: 20px;
+      }
+
+      .container {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .title-box {
+        padding: 18px;
+      }
+
+      .title-box h1 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      .row-box {
+        flex-direction: column;
+      }
+
+      .profile-row {
+        flex-direction: column;
+      }
+
+      .profile-left,
+      .profile-right {
+        width: 100%;
+      }
+
+      .synopsis-box,
+      .half-box {
+        border-radius: 24px;
+        padding: 55px 18px 18px 18px;
+      }
+
+      .synopsis-title {
+        border-radius: 24px 24px 0 0;
+        margin: -55px -18px 16px -18px;
+        padding: 12px;
+        font-size: 16px;
+      }
+
+      .name {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="title-box">
+      <h1>【木の枝耳かきASMR】死にたいキミが川で出会ったのは家出少女</h1>
+    </div>
+
+    <div class="synopsis-box">
+      <div class="synopsis-title">注意事項</div>
+      <p>あらすじ以外に何も決まっていないので、声優も居なければイラストもありません。</p>
+    </div>
+
+    <div class="synopsis-box">
+      <div class="synopsis-title">あらすじ</div>
+      <p>雨の中、川に飛び込もうとしていたキミ。そんなキミを助けてくれたのは、先に川の中に入っていた少女だった。</p>
+      <p>少女はキミを助けてしまったお詫びとして、木の枝で耳かきをしてくれるという……</p>
+    </div>
+
+    <div class="row-box">
+      <div class="half-box">
+        <div class="synopsis-title">登場人物</div>
+
+        <p class="name">
+          <ruby>星野桃花<rt>ほしのももか</rt></ruby>
+        </p>
+
+        <div class="profile-row">
+          <div class="profile-left">
+            <p>年齢：18歳</p>
+            <p>身長：145cm</p>
+            <p>体重：43kg</p>
+            <p>「同じだな。我々はどうしようもなく社会と合わないのだ」</p>
+          </div>
+
+          <div class="profile-right">
+            <p>星が大好きな天才研究者。両親から期待され、小学校には通わずに家で研究ばかりしていた。</p>
+            <p>大学進学の為に高校から進学校に入学したが、ずっと引きこもっていたせいで価値観が合わず、誰とも関われなくなる。</p>
+            <p>結局高校には通わず研究だけしていたのだが……？</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="half-box">
+        <div class="synopsis-title">キャラビジュアル</div>
+        <ul class="list-group">
+          <li class="list-group-item">ここにイラスト</li>
+          <li class="list-group-item">ここにイラスト</li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="row-box">
+      <div class="half-box">
+        <div class="synopsis-title">基本情報</div>
+        <ul class="list-group">
+          <li class="list-group-item">販売サークル：ホシノミル</li>
+          <li class="list-group-item">声優：</li>
+          <li class="list-group-item">シナリオ：無名</li>
+          <li class="list-group-item">イラスト：</li>
+          <li class="list-group-item">音声編集：</li>
+          <li class="list-group-item">ジャンル：耳かき/癒し/鬱/共依存</li>
+          <li class="list-group-item">販売価格：¥700</li>
+        </ul>
+      </div>
+
+      <div class="half-box">
+        <div class="synopsis-title">収録内容</div>
+        <ul class="list-group">
+          <li class="list-group-item">出会い：</li>
+          <li class="list-group-item">右耳かき：</li>
+          <li class="list-group-item">左耳かき：</li>
+          <li class="list-group-item">後日談：</li>
+          <li class="list-group-item">作品時間：60:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="synopsis-box">
+      <div class="synopsis-title">出会い</div>
+      <p>雨の中。川に飛び込んで死のうとしていたキミが溺れて酸素を求めていたところ、岩に座っている少女にしがみついてしまった。</p>
+      <p>少女は死のうとしていたキミに助けたことを謝ると、ナイフと木の枝を取り出して耳かき棒を作り、お詫びに耳かきをしてくれることになる。</p>
+    </div>
+
+    <div class="row-box">
+      <div class="half-box">
+        <div class="synopsis-title">右耳かき</div>
+
+        <p>耳かきをされながら星空を見上げるキミに、少女は「どうして死のうとしたのか」と静かに問いかける。</p>
+        <p>答えられないキミに、彼女は自分もまた社会から逃げてきた“同類”だと語った。</p>
+        <p>大した理由じゃないと分かっているのに苦しい。</p>
+        <p>戻れるはずなのに、戻るのが怖い。</p>
+        <p>そんな矛盾を抱えた心。</p>
+        <p>ふたりは互いの弱さをなぞるように、言葉を重ねていく。</p>
+        <p>やがて流れ星の下、少女は願った。「キミとふたりだけで生きていけたら」と。</p>
+        <p>少女は自分のコンプレックスを打ち明ける。</p>
+        <p>それは、誰にも見せてこなかった弱さ。</p>
+        <p>星空と耳かきに包まれながら、ふたりの距離が少しだけ近づいていく。</p>
+        
+      </div>
+
+      <div class="half-box">
+        <div class="synopsis-title">左耳かき</div>
+      
+        <p>少女は勉強してばかり学校に馴染めなかった。</p>
+        <p>本当は死にたくない。だけど戻ることもできない。いずれ死ぬしかないのなら、一緒にいてほしいとキミに願う。</p>
+        <p>このまま岩の上にいれば、いずれ増水した川が自分たちを流してくれる……</p>
+        <p>少女は死が怖くならないようにキミを眠りへと誘う。</p>
+
+        <p class="name">
+          ……だが、それなら少女は起きたまま死ぬのか。
+          </p>
+
+        <p>ずっと一緒に居たいというキミと、本当は生きていたい少女。</p>
+        <p>そして少女はひとつ賭けをする。</p>
+        <p>「もし流されても生きていたのなら、この森でキミと生きてみようか」</p>
+        <p>生かしたくないなら、ずっと一緒にいて。</p>
+        <p>そう囁く少女の声に包まれながら、キミは静かに眠りへと落ちていく。</p>
+
+      </div>
+    </div>
+
+    <div class="synopsis-box">
+      <div class="synopsis-title">後日談</div>
+      <p>森のログハウスで暮らすようになった二人。</p>
+      <p>バルコニーで星を眺めながら、少女は今日も「ずっと一緒にいられますように」と流れ星に願う。</p>
+      <p>かつてあの星に生きたいと願えたからここにいる。</p>
+      <p>そう語る少女に、キミは少しだけ笑う。</p>
+      <p>望んだ幸せを手に入れた二人はこの先何をするのか。</p>
+      <p>まずは耳かきから頼むと、呆れながらも膝枕をしてくれる少女。</p>
+      <p>あの日と同じように、静かな時間が続いていく。</p>
+    </div>
+
+    <div class="synopsis-box">
+      <div class="synopsis-title">さいごに</div>
+      <p>死にたくなることはあるでしょうか。死にたくなくても死ぬしかないことはあるでしょうか。</p>
+      <p>実際、悩みなんて大したことじゃないことが多いです。そんな気持ちを抑え込めば、結局なんとかなってしまうことが大半でしょう。</p>
+      <p>しかしそれでも辛すぎる。自分はそういう普通の生き方ができるようには作られていない。</p>
+      <p>そんな苦しみを持っている方は、ぜひこちらの話を聞いてください。</p>
+      <p>これで解決することなんて何もありませんが、それでも同じ苦しみを抱いた少女が寄り添ってくれますから。</p>  
+    </div>
+
+  </div>
+</body>
+
+</html>
